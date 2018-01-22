@@ -16,6 +16,7 @@ class PostsController extends Controller
     {
         return view('posts.index');
     }
+//  comment
 
     /**
      * Show the form for creating a new resource.
@@ -41,10 +42,10 @@ class PostsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Task  $task
+     * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function show(Task $task)
+    public function show(Post $post)
     {
         //
     }
@@ -52,10 +53,10 @@ class PostsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Task  $task
+     * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function edit(Task $task)
+    public function edit(Post $post)
     {
         //
     }
@@ -64,10 +65,10 @@ class PostsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Task  $task
+     * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Task $task)
+    public function update(Request $request,Post $post)
     {
         //
     }
@@ -75,10 +76,10 @@ class PostsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Task  $task
+     * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Task $task)
+    public function destroy(Post $post)
     {
         //
     }
